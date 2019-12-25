@@ -1,0 +1,15 @@
+int main_()
+{
+	rate1:=rate1+rate1;
+	var_ := 82+5;
+	var_ := var_-3 ;
+	for(int i_=0; i_<5; i_++)
+	{
+		lol_ := 5.88E-22;
+	}
+	int var_ := 4.4E+7;
+	if(int_t_ > 4)
+	{
+		var_ = var_ + 1;
+	}
+}

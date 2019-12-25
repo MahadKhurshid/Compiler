@@ -146,6 +146,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="driver.cpp" />
+    <ClCompile Include="lexical.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="stack.cpp" />
+    <ClCompile Include="Symbol.cpp" />
+    <ClCompile Include="Table.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lexical.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="stack.h" />
+    <ClInclude Include="Symbol.h" />
+    <ClInclude Include="Table.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ioFiles\cfg.txt" />
+    <Text Include="ioFiles\input.txt" />
+    <Text Include="ioFiles\input2.txt" />
+    <Text Include="ioFiles\non-terminals.txt" />
+    <Text Include="ioFiles\parserErrors.txt" />
+    <Text Include="ioFiles\parseTable.txt" />
+    <Text Include="ioFiles\terminals.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ioFiles\AcceptingStates.csv" />
+    <None Include="ioFiles\tokens.csv" />
+    <None Include="ioFiles\token_type.csv" />
+    <None Include="ioFiles\transColumns.csv" />
+    <None Include="ioFiles\transMap.csv" />
+    <None Include="ioFiles\transTable.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

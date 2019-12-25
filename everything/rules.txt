@@ -1,0 +1,58 @@
+Function -> Type identifier (ArgList) CompoundStmt
+ArgList -> Arg ArgList'
+ArgList' -> ,Arg ArgList'
+ArgList' -> null
+Arg -> Type identifier
+Declaration -> Type IdentList;
+Type -> int
+Type -> float
+IdentList -> identifier L1
+L1 -> ,IdentList
+L1 -> null
+Stmt -> ForStmt
+Stmt -> WhileStmt
+Stmt -> Expr;
+Stmt -> IfStmt
+Stmt -> CompoundStmt
+Stmt -> Declaration
+Stmt -> ;
+ForStmt -> for(Expr ; L2)Stmt
+L2 -> OptExpr ; OptExpr
+L2 -> ; OptExpr
+L2 -> OptExpr ;
+L2 -> ;
+OptExpr -> Expr
+WhileStmt -> while(Expr)Stmt
+IfStmt -> if(Expr)Stmt L3
+L3 -> ElsePart
+L3 -> null
+ElsePart -> elseStmt
+CompoundStmt -> { L4 }
+L4 -> StmtList
+L4 -> null
+StmtList -> Stmt StmtList'
+StmtList' -> Stmt StmtList'
+StmtList' -> null
+Expr -> identifier := Expr
+Expr -> Rvalue
+Rvalue -> Mag Rvalue'
+Rvalue' -> Compare Mag Rvalue'
+Rvalue' -> null
+Compare -> ==
+Compare -> <
+Compare -> >
+Compare -> <=
+Compare -> >=
+Compare -> !=
+Compare -> <>
+Mag -> Term Mag'
+Mag' -> + Term Mag'
+Mag' -> - Term Mag'
+Mag' -> null
+Term -> Factor Term'
+Term' -> * Factor Term'
+Term' -> / Factor Term'
+Term' -> null
+Factor -> (Expr)
+Factor -> number
+Factor -> identifier

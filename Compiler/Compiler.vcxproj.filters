@@ -14,4 +14,84 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lexical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lexical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ioFiles\terminals.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ioFiles\cfg.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ioFiles\input.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ioFiles\input2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ioFiles\non-terminals.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ioFiles\parseTable.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ioFiles\parserErrors.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ioFiles\token_type.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ioFiles\tokens.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ioFiles\transColumns.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ioFiles\transMap.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ioFiles\transTable.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ioFiles\AcceptingStates.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
