@@ -2,7 +2,7 @@ Compiler - by Harry
 
 i hope you can understand and learn from my hardwork!
 
-In Compiler following things includes:
+In Compiler following things are include:
 	->	Lexical
 	->	Parser
 	->	Input Output Files as iofiles
