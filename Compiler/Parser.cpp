@@ -183,8 +183,7 @@ void Parser::runParser()
 				if (tokenNo +1 == nti)
 				{
 					cout << temptoken << ", Parsed\n";
-					flag = true;
-					continue;
+					break;
 				}
 			}
 			if (PTb[nti][tokenNo] >= 0)	// If Rule Does Exist!
