@@ -26,7 +26,7 @@ WhileStmt -> while(Expr)Stmt
 IfStmt -> if(Expr)Stmt L3
 L3 -> ElsePart
 L3 -> null
-ElsePart -> elseStmt
+ElsePart -> else Stmt
 CompoundStmt -> { L4 }
 L4 -> StmtList
 L4 -> null
